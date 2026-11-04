@@ -1,0 +1,19 @@
+services:
+  database:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: maintenance
+      POSTGRES_USER: maintenance
+      POSTGRES_PASSWORD: maintenance
+    ports:
+      - '127.0.0.1:5432:5432'
+    volumes:
+      - maintenance-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U maintenance -d maintenance']
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  maintenance-data:

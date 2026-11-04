@@ -1,0 +1,13 @@
+node_modules
+**/node_modules
+**/dist
+.git
+.env*
+.local
+docs
+tests
+test-results
+playwright-report
+*.pdf
+postman
+.postman

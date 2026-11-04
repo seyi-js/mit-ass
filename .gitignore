@@ -1,0 +1,33 @@
+# Dependencies and generated builds
+node_modules/
+dist/
+*.tsbuildinfo
+.cache/
+.vite/
+
+# Local configuration, credentials, and database storage
+.env
+.env.*
+!.env.example
+.local/
+.postman/
+
+# Logs and generated test output
+*.log
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/
+playwright/.auth/
+
+# Operating-system and temporary editor files
+.DS_Store
+._*
+*.swp
+*.swo
+*~
+
+# Local assignment reference; project documentation belongs in Git
+/CA - MIT 8333 - Advanced Web Application Development (Virtual lab).pdf
