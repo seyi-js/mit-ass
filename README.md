@@ -5,6 +5,8 @@ Advanced Web Application Development (Virtual lab)**. Students and staff submit
 requests; administrators assign officers; officers update progress and complete
 jobs. Each role has a dashboard and the backend enforces access rules.
 
+Source repository: [seyi-js/mit-ass](https://github.com/seyi-js/mit-ass).
+
 ## Stack and scope
 
 - React, TypeScript, Vite, React Router, responsive CSS.

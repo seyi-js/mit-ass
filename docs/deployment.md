@@ -1,18 +1,20 @@
 # Deployment and GitHub
 
 The application is prepared for one Node.js service behind an HTTPS reverse proxy
-and a PostgreSQL database. No hosting provider or GitHub repository has been
-selected. Instructions below are deployment preparation, not evidence of a live
-deployment.
+and a PostgreSQL database. The source is published on GitHub; online deployment
+is deferred. Instructions below are deployment preparation, not evidence of a
+live deployment.
 
 ## GitHub
 
-Initialize a repository in the project root, review the staged files, commit, and
-push to the chosen GitHub repository. Include application sources, migrations,
-tests, lockfile, documentation, and screenshots. `.gitignore` excludes `.env`,
-local database storage, dependencies, generated builds, and temporary test output.
+Repository: [seyi-js/mit-ass](https://github.com/seyi-js/mit-ass).
 
-Record the final repository URL and tested commit in the technical report.
+The initial application commit is
+[34a6b80](https://github.com/seyi-js/mit-ass/commit/34a6b80a4dfcf702203ddbc80e141a8792c3c862)
+on `main`. It includes application sources, migrations, tests, the lockfile,
+documentation, and screenshots. `.gitignore` excludes `.env`, local database
+storage, dependencies, generated builds, and temporary test output. The repository
+URL and application source commit are recorded in the technical report.
 
 ## Hosting configuration
 

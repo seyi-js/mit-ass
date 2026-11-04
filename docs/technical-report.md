@@ -6,7 +6,9 @@
 
 **Student name / matriculation number:** To be supplied
 
-**GitHub repository:** Pending repository selection and push
+**GitHub repository:** [seyi-js/mit-ass](https://github.com/seyi-js/mit-ass)
+
+**Application source commit:** [34a6b80](https://github.com/seyi-js/mit-ass/commit/34a6b80a4dfcf702203ddbc80e141a8792c3c862)
 
 **Live application:** Pending hosting selection and deployment
 
